@@ -1,0 +1,13 @@
+com\hb\sb\webservices\ItemManagementWebService.class
+com\hb\sb\dao\entities\Customer.class
+com\hb\sb\bizservices\OrderManagementService.class
+com\hb\sb\dao\ItemRepository.class
+com\hb\sb\app\MyApp.class
+com\hb\sb\dao\entities\Order.class
+com\hb\sb\bizservices\ItemManagementService.class
+com\hb\sb\config\JPAConfig.class
+com\hb\sb\dao\entities\Item.class
+com\hb\sb\dao\CustomerRepository.class
+com\hb\sb\app\WelcomeService.class
+com\hb\sb\bizservices\CustomerManagementService.class
+com\hb\sb\dao\OrderRepository.class
