@@ -24,7 +24,7 @@ public class MyApp {
 			ApplicationContext ctx = app.run(args);
 			logger.info("Application started");
 		} catch (Throwable t) {
-			logger.error("Error starting app", t);
+			logger.info("Error starting app", t);
 		}
 	}
 }
