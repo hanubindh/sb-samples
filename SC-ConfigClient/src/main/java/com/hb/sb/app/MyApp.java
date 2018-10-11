@@ -17,10 +17,14 @@ public class MyApp {
 
 	public static void main(String[] args) {
 		logger.info("Application is starting... ");
-		SpringApplication app = new SpringApplication(MyApp.class);
-		// app.setBannerMode(Banner.Mode.OFF);
-		// app.setLogStartupInfo(false);
-		ApplicationContext ctx = app.run(args);
-		logger.info("Application started");
+		try {
+			SpringApplication app = new SpringApplication(MyApp.class);
+			// app.setBannerMode(Banner.Mode.OFF);
+			// app.setLogStartupInfo(false);
+			ApplicationContext ctx = app.run(args);
+			logger.info("Application started");
+		} catch (Throwable t) {
+			logger.info("Error starting app", t);
+		}
 	}
 }
