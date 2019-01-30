@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RestController
-@RefreshScope
+// @RefreshScope
 @RequestMapping("messenger")
 public class MessengerService {
 
